@@ -1,2 +1,8 @@
-# hoon-snippets
-Various snippets of hoon code which others in the community may find useful as well.
+<h1 align="center">
+  Hoon Snippets
+</h1>
+<p align="center"> Various hoon code snippest which developers may find useful to include/use/fork for their own use cases.</p>
+
+---
+
+Hoon is Urbit's user-facing programming language. For more information about Hoon, check out the [Hoon Documentation](https://urbit.org/docs/glossary/hoon).
