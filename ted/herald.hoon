@@ -11,7 +11,7 @@
 ::    curl -i --header "Content-Type: application/json" \
 ::          --cookie "urbauth-~zod=0v6.h6t4q.2tkui.oeaqu.nihh9.i0qv6" \
 ::          --request POST \
-::          --data '{"command": "|mount %base"}' \
+::          --data '{"json": "|mount %base"}' \
 ::          http://localhost:8080/spider/base/json/herald/json
 ::    ```
 ::
