@@ -21,7 +21,7 @@ the command, wrap the output as a JSON, and return the value.
 curl -i --header "Content-Type: application/json" \
      --cookie "urbauth-~zod=0v6.hurgu.sburg.uszop" \
      --request POST \
-     --data '{"command": "|mount %base"}' \
+     --data '{"json": "|mount %base"}' \
      http://localhost:8080/spider/base/json/herald/json
 ```
 
