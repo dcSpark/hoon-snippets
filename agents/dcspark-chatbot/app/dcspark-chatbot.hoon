@@ -125,6 +125,7 @@
   ?:  =('!dcbot discord' text)  `[%url url='https://discord.gg/qTYtGs2hq4']
   ?:  =('!dcbot snippets' text)  `[%url url='https://github.com/dcspark/hoon-snippets']
   ?:  =('!dcbot sourcecode' text)  `[%url url='https://github.com/dcspark/hoon-snippets/agents/chatbot']
+  ?:  =('!dcbot visorvids' text)  `[%url url='https://www.youtube.com/watch?v=DquwDSPZSvs&list=PLr8CYRYebz4DP7HyihTZWYUQ3x6BWIZR_']
   ?:  =('!dcbot help' text)  `[%text text=(help-message)]
   ?:  =('!dcbot' text)  `[%text text=(help-message)]  ~
 ++  help-message
@@ -133,6 +134,7 @@
 dcSpark Chatbot Command List:
 `!dcbot website`    -> The dcSpark Website
 `!dcbot visor`      -> The Urbit Visor Website
+`!dcbot visorvids   -> Getting Started With Urbit Visor
 `!dcbot dashboard`  -> The Urbit Dashboard Website
 `!dcbot flint`      -> The Flint Wallet Website
 `!dcbot milkomeda`  -> The Milkomeda Website
