@@ -25,11 +25,10 @@
 ::  Test adding a watcher to the list.
 ::
 ++  test-add-client
-  =|  run=@ud 
+  =|  run=@ud
   =^  move  agent  (~(on-poke agent (bowl run)) %pomodoro-action !>([%add-client ~zod]))
   =+  !<(=state on-save:agent)
   %+  expect-eq
-    !>  [%0 watchers={~zod} status=%break]
-    !>  watchers.state
-  ==
+    !>  [%0 watchers=(sy ~[~zod]) status=%break]
+    !>  state
 --
